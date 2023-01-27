@@ -87,6 +87,13 @@ struct ContentView: View {
                     backgroundcolor = 0
                 })
                 .buttonStyle(.borderedProminent)
+                .tint(.blue)
+                .foregroundColor(.red)
+                
+                Button("Reset", action: {
+                    backgroundcolor = 0
+                })
+                .buttonStyle(.borderedProminent)
                 .tint(.white)
                 .foregroundColor(.pink)
                 
@@ -110,7 +117,7 @@ struct ContentView: View {
                 Image(systemName: "globe")
                     .imageScale(.large)
                     .foregroundColor(.accentColor)
-                Text("Hello, world!")
+                Text("Hello, world from your partner!")
                     .foregroundColor(.accentColor)
             }
         }
