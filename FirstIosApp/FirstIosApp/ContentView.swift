@@ -97,6 +97,15 @@ struct ContentView: View {
                 .tint(.white)
                 .foregroundColor(.pink)
                 
+//                let lv = LogInView()
+//                Button("Log Out", action: {
+//                    lv.signOut()
+//                lv: View
+//                })
+//                .buttonStyle(.borderedProminent)
+//                .tint(.white)
+//                .foregroundColor(.pink)
+                
                 var tt: Bool = true
                 Button("Flashlight", action: {
                     if tt == true {
